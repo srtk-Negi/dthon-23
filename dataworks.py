@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def main():
-    data = pd.read_csv('EDGE_GEOCODE_PUBLICLEA_1718.csv')
+    data = pd.read_csv('Advanced_Mathematics.csv', encoding='gbk')
     print(data.columns)
 
 
